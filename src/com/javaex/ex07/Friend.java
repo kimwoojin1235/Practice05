@@ -15,7 +15,7 @@ public class Friend {
 	}
 
 
-	public void setName(Scanner ) {
+	public void setName(FriendApp friendApp) {
 		this.name = name;
 	}
 
