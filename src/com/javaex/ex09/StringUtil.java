@@ -2,16 +2,16 @@ package com.javaex.ex09;
 
 public class StringUtil {
     
-	 public static String concatString(String[] strArray){
+	 public static String concatString(String[] stringArray){
 	    	
 	        //메소드 내용작성
-	    	String result ="";
+	    	String re ="";
 	    	
-	    	for(int i=0; i<strArray.length; i++) {
-	    		result += strArray[i]; 
+	    	for(int i=0; i<stringArray.length; i++) {
+	    		re += stringArray[i]; 
 	    	}
 	    	
-	        return result;
+	        return re;
     }
 
 }
