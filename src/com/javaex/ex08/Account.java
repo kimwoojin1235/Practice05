@@ -10,11 +10,11 @@ public class Account {
     public Account(String accountNo) {
 		this.accountNo=accountNo;
 	}
-    public static void deposit(int deposit) {
-    	Account.deposit(deposit);
+    public void deposit(int balance) {
+    	this.balance+=balance;
     }
-    public static int withdraw(int withdraw) {
-		return withdraw-deposit;
+    public void withdraw(int balance) {
+		this.balance-=balance;
 	}
     //필요한 메소드 작성
     public void showBalance()

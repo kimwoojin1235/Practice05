@@ -15,7 +15,7 @@ public class Friend {
 	}
 
 
-	public void setName(FriendApp friendApp) {
+	public void setName(String name) {
 		this.name = name;
 	}
 

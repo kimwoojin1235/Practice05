@@ -23,20 +23,16 @@ public class FriendApp {
 				System.out.print("학교: ");
 				String school=sc.nextLine();
 				System.out.println("------------------------");
-			}
+				  // Friend 인스턴스 생성하여 데이터 넣기
+	            Friend fr= new Friend();
+	            fr.setName(name);
+	        	fr.setHp(phon);
+	        	fr.setSchool(school);
+	           
+	            // 인스턴스 주소를 배열에 대입
+	            friendArray[i]=fr;
 
-            // Friend 인스턴스 생성하여 데이터 넣기
-            Friend jws= new Friend();
-            Friend lhr=new Friend();
-            Friend ujs=new Friend();
-            
-           
-            // 인스턴스 주소를 배열에 대입
-            friendArray[0]=jws;
-            friendArray[1]=lhr;
-            friendArray[2]=ujs;
-
-        
+			} 
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
             //친구정보 출력 메소드 호출
