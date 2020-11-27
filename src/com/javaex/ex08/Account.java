@@ -19,7 +19,7 @@ public class Account {
     //필요한 메소드 작성
     public void showBalance()
     {
-    	System.out.println();
+    	System.out.println(balance);
     }
 
 }
